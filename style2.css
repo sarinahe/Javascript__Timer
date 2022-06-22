@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.start-box #search-container {
+  padding: 10px;
+  outline-color: black;
+  border-radius: 2px;
+  border: 1px solid black;
+}
+.start-box #button-container {
+  padding: 10px;
+  color: white;
+  border-radius: 2px;
+  border: 1px solid black;
+  background-color: darkred;
+}
+.c100 {
+  margin-top: 20px;
+  display: none;
+}
+#error-message {
+  display: none;
+}
+#error-message.active {
+  display: block;
+  margin-top: 10px;
+  margin-left: 15px;
+  color: red;
+}
+.start-box.active {
+  display: block;
+}
+.start-box {
+  display: none;
+}
+.message .loading {
+  color: orangered;
+  display: none;
+  font-size: 20px;
+}
+.message .success {
+  color: rgb(141, 208, 41);
+  display: none;
+  margin-top: 10px;
+  margin-right: 40px;
+  font-size: 20px;
+}
